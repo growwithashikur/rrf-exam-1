@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+.container{
+   @apply w-[85%] m-auto;
+}
+.Main-Nave ul li a{
+@apply font-bold text-[18px]  leading-[150%] p-5 hover:text-[#FC3314];
+}
+
+
+.bg-color{
+    @apply bg-[#FFD4D0];
+}
+
+.nav-btn a{
+    @apply text-white font-bold text-[16px] bg-black px-[24px] py-[12px] hover:bg-[#FC3314];
+}
+h2{
+    @apply font-bold leading-[180%]
+}
+.social-media i{
+    @apply text-[18px] pt-5;
+}
+
+.contact-seciton input, textarea{
+    @apply bg-white m-[10px] py-[14px] px-[16px] focus:outline-hidden;
+}
+
+.contact-seciton i{
+    @apply m-3
+}
+
+.ctc-icon i{
+    @apply  bg-white w-[30px] h-[30px] rounded-full text-center flex justify-center items-center
+}
